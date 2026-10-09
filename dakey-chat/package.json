@@ -1,0 +1,35 @@
+{
+  "name": "dakey-chat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dakey chat (React Native + React Native Web) over the AG-UI protocol — PoC.",
+  "main": "index.ts",
+  "scripts": {
+    "web": "expo start --web --port 8090",
+    "mock": "tsx mock-server/server.ts",
+    "verify": "tsx scripts/verify-agui.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ag-ui/core": "^1.0.2",
+    "@expo/metro-runtime": "~5.0.5",
+    "@legendapp/list": "~3.0.0",
+    "expo": "~53.0.27",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-marked": "^8.3.2",
+    "react-native-svg": "15.11.2",
+    "react-native-web": "~0.20.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@ag-ui/client": "^1.0.2",
+    "@ag-ui/encoder": "^1.0.2",
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "tsx": "^4.20.3",
+    "typescript": "~5.8.3"
+  }
+}

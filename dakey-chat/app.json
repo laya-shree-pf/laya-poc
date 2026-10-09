@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "dakey-chat",
+    "slug": "dakey-chat",
+    "version": "0.1.0",
+    "platforms": ["web"],
+    "web": {"bundler": "metro"}
+  }
+}
